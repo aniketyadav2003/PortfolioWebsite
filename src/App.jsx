@@ -3,6 +3,7 @@ import Lenis from '@studio-freight/lenis'
 import Scene from './components/3d/Scene'
 import Navbar from './components/Navbar'
 import CustomCursor from './components/CustomCursor'
+import Preloader from './components/Preloader'
 import './index.css'
 
 // Lazy load sections for performance
@@ -38,6 +39,7 @@ export default function App() {
 
   return (
     <main className="app-container">
+      <Preloader />
       <CustomCursor />
       <Scene />
       <Navbar />

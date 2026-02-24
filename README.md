@@ -1,16 +1,56 @@
-# React + Vite
+# Aniket Yadav | Communication Design Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, interactive portfolio website showcasing communication design work. Built with a focus on high-end aesthetics, smooth interactions, and 3D visual storytelling.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Link to Live Site]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Key Features
+- **3D Glass Geometry**: Interactive 3D objects using React Three Fiber and Three.js for a modern, tactile feel.
+- **Smooth Scrolling**: Integrated with Lenis for a fluid, natural navigation experience.
+- **Micro-animations**: Subtle, high-quality transitions powered by Framer Motion.
+- **Glassmorphism UI**: A clean, sophisticated design language using glass-like cards and overlays.
+- **Responsive Design**: Optimized for a seamless experience across all device sizes.
+- **Performance Optimized**: Built on Vite with lazy-loaded components and optimized assets.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend**: React 19, Vite
+- **3D Graphics**: Three.js, React Three Fiber, React Three Drei
+- **Animations**: Framer Motion
+- **Scrolling**: Studio Freight Lenis
+- **Styling**: Vanilla CSS (Custom properties & Glassmorphism)
+- **Icons**: Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
+- `src/components/3d`: 3D scene and geometry implementation.
+- `src/sections`: Main section components (Hero, Selected Projects, Contact).
+- `src/components`: Reusable UI elements like Navbar and Custom Cursor.
+- `src/index.css`: Core design system, tokens, and global styles.
 
-## Expanding the ESLint configuration
+## 🛠️ Local Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/aniketyadav2003/PortfolioWebsite.git
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 🎨 Design Philosophy
+This portfolio is designed to reflect the clarity and impact of communication design. It balances technical complexity (3D, smooth scroll) with a minimalist aesthetic to ensure the focus remains on the creative work.
+
+---
+Designed & Developed by **Aniket Yadav**.
